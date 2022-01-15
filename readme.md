@@ -21,6 +21,6 @@ for clone file to local computer
 - Add Localization THAI AND ENGLISH
 <p align="center"><img src="SampleScreen\Sample_2.png" width="35%"><img src="SampleScreen\Sample_3.png"width="34%"></p>
 
-# 0.3
+# 🍔 0.3
 - Add Image and Icon
 <p align="center"><img src="SampleScreen\Sample_4.png" width="35%"></p>
