@@ -11,18 +11,20 @@ import os
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
+        self.LocalLang = "TH"
         self.SetConfigure()
         self.ShowImage("Main")
         self.TextShow()
         self.ShowButton()
         self.ShowButtonThai()
         self.ShowButtonEng()
-        self.LocalLang = "TH"
+        self.wk18K = Label(
+            self, text="Dev wk-18k created 2022 Thailand").place(x=60, y=400)
 
     def SetConfigure(self):
         # configure the root window
         self.title('โปรแกรมสุ่มอาหาร')
-        self.geometry('300x400')
+        self.geometry('300x430')
         self.resizable(False, False)
 
     def ShowImage(self, Image_Path):
