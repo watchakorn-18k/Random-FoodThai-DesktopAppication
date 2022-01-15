@@ -1,6 +1,6 @@
 <h1 align="center">Desktop Appication Random Food Thai<h1/>
 <p align="center">โปรแกรมสุ่มอาหารไทย</p>
-<p align="center"><img src="SampleScreen\Sample_1.png"></p>
+<p align="center"><img src="SampleScreen\Sample_2.png"></p>
 
 # 👌 Simple Appication With tkinter
 
@@ -19,3 +19,4 @@ for clone file to local computer
 
 # 😵 0.2
 - Add Localization THAI AND ENGLISH
+<p align="center"><img src="SampleScreen\Sample_2.png" width="35%"><img src="SampleScreen\Sample_3.png"width="34%"></p>
