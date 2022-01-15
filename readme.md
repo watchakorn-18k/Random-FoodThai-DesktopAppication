@@ -8,6 +8,7 @@
 for clone file to local computer
 # 🎷 How to test
 - Install python 3.8 +
+- Install package for this repo with command ``` pip install -r requirement.txt ```
 - Run file main.py with command ``` python main.py ```
 
 # 📙 This appication for education
