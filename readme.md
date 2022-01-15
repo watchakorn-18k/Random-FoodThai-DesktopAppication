@@ -4,7 +4,7 @@
 
 # Simple Appication With tkinter
 
-``` git clone <url.git> ```
+``` git clone https://github.com/watchakorn-18k/Random-FoodThai-DesktopAppication.git ```
 for clone file to local computer
 # How to test
 - Install python 3.8 +
