@@ -13,7 +13,7 @@ class App(tk.Tk):
         super().__init__()
         self.LocalLang = "TH"
         self.SetConfigure()
-        self.ShowImage("Main")
+        self.ShowImage("Main_Img")
         self.TextShow()
         self.ShowButton()
         self.ShowButtonThai()
@@ -26,6 +26,7 @@ class App(tk.Tk):
         self.title('โปรแกรมสุ่มอาหาร')
         self.geometry('300x430')
         self.resizable(False, False)
+        self.iconbitmap("icon.ico")
 
     def ShowImage(self, Image_Path):
         self.imageSource = Image.open(f"Image/{Image_Path}.png")
@@ -103,6 +104,7 @@ class App(tk.Tk):
         self.labelNameFood['font'] = (None, 13)
         self.LocalLang = "TH"
         self.title('โปรแกรมสุ่มอาหาร')
+        self.ShowImage("Main_Img")
 
     def ChangetoEng(self):
         self.button['text'] = "Click for Random Food"
@@ -112,6 +114,7 @@ class App(tk.Tk):
         self.labelNameFood['font'] = (None, 10)
         self.LocalLang = "ENG"
         self.title('Random Food Appication')
+        self.ShowImage("Main_Img")
 
 
 if __name__ == "__main__":
