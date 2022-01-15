@@ -23,7 +23,7 @@ class App(tk.Tk):
         # configure the root window
         self.title('โปรแกรมสุ่มอาหาร')
         self.geometry('300x400')
-        # self.resizable(False, False)
+        self.resizable(False, False)
 
     def ShowImage(self, Image_Path):
         self.imageSource = Image.open(f"Image/{Image_Path}.png")
@@ -100,6 +100,7 @@ class App(tk.Tk):
         self.button['font'] = font.Font(size=15)
         self.labelNameFood['font'] = (None, 13)
         self.LocalLang = "TH"
+        self.title('โปรแกรมสุ่มอาหาร')
 
     def ChangetoEng(self):
         self.button['text'] = "Click for Random Food"
@@ -108,6 +109,7 @@ class App(tk.Tk):
   pressing random food button !"""
         self.labelNameFood['font'] = (None, 10)
         self.LocalLang = "ENG"
+        self.title('Random Food Appication')
 
 
 if __name__ == "__main__":
