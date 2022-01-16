@@ -1,6 +1,6 @@
 <h1 align="center">Desktop Appication Random Food Thai<h1/>
 <p align="center">โปรแกรมสุ่มอาหารไทย</p>
-<p align="center"><img src="SampleScreen\Sample_2.png"></p>
+<p align="center"><img src="SampleScreen\Sample_6.png"> <img src="SampleScreen\Sample_7.png"></p>
 
 # 👌 Simple Appication With tkinter
 
@@ -25,3 +25,10 @@ for clone file to local computer
 # 🍔 0.3
 - Add Image and Icon
 <p align="center"><img src="SampleScreen\Sample_4.png" width="35%"></p>
+
+# 🤖 0.4
+- Add pull data json from https://raw.githubusercontent.com/thangman22/thai-food-open-data/master/food.json
+- Fix bug case to double click to button repeatedly by edit when click to button give button disable
+- Add custom font and use package pyglet for save name font
+- Add messagebox after random food to finish
+<p align="center"><img src="SampleScreen\Sample_5.png" width="35%"></p>
