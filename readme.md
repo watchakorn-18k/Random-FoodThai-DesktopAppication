@@ -1,4 +1,4 @@
-<h1 align="center">Desktop Appication Random Food Thai<h1/>
+<h1 align="center">Desktop Application Random Food Thai<h1/>
 <p align="center">โปรแกรมสุ่มอาหารไทย</p>
 <p align="center"><img src="SampleScreen\Sample_6.png"> <img src="SampleScreen\Sample_7.png"></p>
 
